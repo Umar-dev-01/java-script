@@ -56,11 +56,24 @@ console.log(car2.brand);
 "Audi"
 
 let numbers1 = [10, 20];
-
 let numbers2 = numbers1;
-
 numbers2[1] = 500;
 
 console.log(numbers1);
 console.log(numbers2);
+10,500
+10,500
 
+let user1 = {
+  name: "Umar"
+};
+
+let user2 = {
+  name: "Umar"
+};
+user2.name = "Ali";
+
+console.log(user1.name);
+console.log(user2.name);
+umar
+ali
