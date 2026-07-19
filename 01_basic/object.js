@@ -134,7 +134,7 @@ Department:"IT",
 }
 console.log([University.Name])
 console.log([University.CGPA])
-*/
+
 
 let employee = {
     name: "Ali",
@@ -146,4 +146,124 @@ employee.department="IT"
 console.log(employee)
 
 //last ans (Umar, Umar, Umar)
+
+
+
+
+
+let user = {
+    name: "Umar",
+    age: 20
+};
+let key = "name";
+console.log(user[key]);
+console.log(user.key);
+Umar 
+undefined
+
+let user = {
+    city: "Lahore"
+};
+console.log(user.country);
+console.log(user["country"]);
+undefined
+undefined
+
+let user = {
+    name: "Ali"
+};
+Object.freeze(user);
+user.name = "Ahmed";
+user.city = "Islamabad";
+console.log(user);
+//name: "Ali"
+//city = "Islamabad"
+
+let student = {
+    name: "Umar",
+    cgpa: 3.4
+};
+console.log(student["cgpa"])
+
+let laptop = {
+brand : "HP",
+ram : "8GB"
+}
+console.log(laptop.brand);
+Object.freeze(laptop);
+laptop.Price = 120000;
+delete laptop.ram;
+
+
+
+//10
+// undefined
+// 10
+// undefined
+
+let employee = {
+    name: "Ali",
+    salary: 80000
+};
+employee.salary=90000;
+employee.Department="IT";
+Object.freeze(employee)
+employee.salary=100000;
+console.log(employee)
+
+// Umar 
+// undefine
+//  undefine 
+//  Umar
+
+
+
+let  Student={
+Name :"Umar",
+Age : 20,
+City : "Lahore",
+};
+Student.Age=21;
+Student.Semester = 4;
+delete Student.City;
+Object.freeze(Student);
+Student.Name = "Ali";
+console.log(Student)
+
+let Mobile={
+Brand: "red",
+Model:302,
+Price:1390,
+};
+Mobile.Color = "Black";
+Mobile.Price=1550;
+Object.freeze(Mobile);
+Mobile.Warranty = "1 Year";
+console.log(Mobile);
+*/
+
+let Employee={
+Name: "MMM",
+Salary: 15000,
+Department: "Finance"
+};
+Employee.Salary=20000;
+Employee.Experience = "2 Years";
+delete Employee.Department;
+Object.freeze(Employee);
+Employee.Salary= 30000;
+Employee.Experience = "5 Years";
+console.log(Employee)
+
+let Laptop={
+Brand:"Apple",
+RAM:"8GB",
+Storage:"45GB",
+Price:95000,
+Processor:"8GB",
+};
+Laptop.RAM="10GB";
+delete Laptop.Price;
+Laptop.Warranty= "5years";
+console.log(Laptop);
 
