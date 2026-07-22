@@ -240,7 +240,7 @@ Mobile.Price=1550;
 Object.freeze(Mobile);
 Mobile.Warranty = "1 Year";
 console.log(Mobile);
-*/
+
 
 let Employee={
 Name: "MMM",
@@ -266,4 +266,88 @@ Laptop.RAM="10GB";
 delete Laptop.Price;
 Laptop.Warranty= "5years";
 console.log(Laptop);
+
+
+
+
+
+                            //////////////////partttttttttttttt   2 
+
+
+                                
+let person= {
+Name : "Umar",
+Age : 20,
+Country : "Pakistan",
+};
+console.log(person)
+
+
+
+let user= new Object();
+user.Brand = "Apple";
+user.Model = "MacBook Pro";
+user.RAM = "16GB";
+console.log(user)
+
+
+let Student={
+Name :"Umar",
+
+Address:{
+    City : "Lahore",
+    Country: "Pakistan",
+    PostalCode : 54000,
+}
+}
+console.log(Student.Address.Country)
+console.log(Student)
+
+
+
+let student1={
+Name :"Umar",
+}
+let student2={
+Age : 20,
+}
+console.log(...student1, ...student2)
+
+let car={
+Brand: "GLI",
+Model:2016,
+Color:"white",
+Price:"3M"
+}
+console.log(Object.keys(car))
+
+
+
+let car={
+Brand: "GLI",
+Model:2016,
+Color:"white",
+Price:"3M"
+}
+console.log(Object.values(car))
+
+
+
+
+let car={
+Brand: "GLI",
+Model:2016,
+Color:"white",
+Price:"3M"
+}
+console.log(car)
+
+*/
+
+let user={
+Name: "Malik",
+Email:"malik@gmail.com",
+Password:32984,
+} ;//console.log(user.hasOwnProperty("name"));
+     console.log(user.hasOwnproperty("Name"));
 
