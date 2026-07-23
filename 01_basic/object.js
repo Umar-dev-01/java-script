@@ -433,12 +433,35 @@ console.log(key(mobile))
 console.log(value(mobile))
 console.log(mobile)
 
-*/
+
 let login={
     Username:"delta",
 Email:"delta@gmail.com",
 Password:123,
 };
 console.log(hasOwnProperty("Email"))
-    //console.log("Email Found")
+    //mojhy lgta if condition lgy gi
+console.log(hasOwnProperty("Phone"))
+
+
+let Course={
+ CourseName:"Math",
+Teacher:"Tahira",
+Duration:"2Month",
+Fee:14000,
+};
+let {CourseName, Teacher}= Course;
+console.log(CourseName)
+console.log(Teacher)
+
+*/
+
+let employee={
+Name:"Ranrra",
+Salary:700,
+Department:"Transport",
+Office:{
+City:"ISB",
+Floor:2,
+}};
 
