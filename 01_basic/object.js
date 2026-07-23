@@ -342,12 +342,103 @@ Price:"3M"
 }
 console.log(car)
 
-*/
+
 
 let user={
 Name: "Malik",
 Email:"malik@gmail.com",
 Password:32984,
-} ;//console.log(user.hasOwnProperty("name"));
-     console.log(user.hasOwnproperty("Name"));
+} ;
+console.log(user.hasOwnProperty("Name"));
+console.log(user.hasOwnProperty("Phone"))
+
+
+let Course={
+CourseName : "JavaScript",
+Price : 999,
+Teacher : "Hitesh",
+}
+let {CourseName, Teacher}= Course;
+console.log(CourseName)
+console.log(Teacher)
+
+
+
+
+let Name={
+RollNumber: 001,
+Semester: 5,
+Department:"IT",
+}
+Name.Semester=6;
+Name.Email="malik@gmail.com",
+delete Name.Department;
+console.log(Name)
+
+
+
+let web={
+ProductName:"Dress",
+Price:200,
+Brand:"LV"
+}
+web.Price=1200;
+web.colour="white";
+Object.freeze(web);
+web.Warranty="4years";
+console.log(web)
+
+
+
+
+let employee={
+Name:"Mando",
+sallery:400,
+Address:{
+City:"ISB",
+Country:"Pak",
+}}
+employee.Address.PostalCode=9234;
+employee.Address.City="TLG";
+console.log(...employee.Name, ...employee.sallery)
+
+
+
+let object1={
+Name:"Malik",
+Age:22,
+
+object2:{
+CGPA:3.25,
+University:"AIOU",
+}};
+let object3={
+  Name:"Malik",
+Age:22, 
+ CGPA:3.25,
+University:"AIOU"
+}
+console.log(object1)
+console.log(object3)
+
+
+let mobile={
+    Brand:"Nokia",
+Model:302,
+Price:5000,
+Color:"Black",
+Storage:"2GB",
+}
+console.log(key(mobile))
+console.log(value(mobile))
+console.log(mobile)
+
+*/
+let login={
+    Username:"delta",
+Email:"delta@gmail.com",
+Password:123,
+};
+console.log(hasOwnProperty("Email"))
+    //console.log("Email Found")
 
